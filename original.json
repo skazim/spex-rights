@@ -1,0 +1,55 @@
+{
+  "permissions": [
+    {
+      "key": "video",
+      "name": "Video",
+      "values": [
+        {
+          "key": "embed",
+          "name": "Embed Video"
+        }, {
+          "key": "upload",
+          "name": "Upload"
+        },
+        {
+          "key": "download",
+          "name": "Download"
+        }
+      ]
+    }, {
+      "key": "title",
+      "name": "Title",
+      "values": [
+        {
+          "key": "edit",
+          "name": "Edit"
+        }, {
+          "key": "remove",
+          "name": "Remove"
+        }, {
+          "key": "destroy",
+          "name": "Destroy"
+        }]
+    }, {
+      "key": "images",
+      "name": "Images",
+      "values": [
+        {
+          "key": "upload",
+          "name": "Upload"
+        }, {
+          "key": "remove",
+          "name": "Remove"
+        }, {
+          "key": "paint",
+          "name": "Paint"
+        }]
+    }],
+"enabled": {
+    "video" : ["embed", "upload"],
+    "title" : ["remove", "destroy"]
+  },
+  "checked": {
+    "video" : ["upload"]
+  }
+}

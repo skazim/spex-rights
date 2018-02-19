@@ -1,0 +1,175 @@
+{
+  "components": {
+    "Default": [
+      "Default_*",
+      "changeCatalogLocale",
+      "changeCompany",
+      "home",
+      "logout",
+      "getCategoryTree",
+      "getProductTypes",
+      "manageProductPage",
+      "faq"
+    ],
+    "Home": [
+      "Home_*",
+      "allTask",
+      "chart",
+      "dcoverage",
+      "news",
+      "pissues",
+      "phistory",
+      "recentProduct",
+      "rct",
+      "topissues",
+      "toppublish",
+      "usertask",
+      "dashboard"
+    ],
+    "Catalog": [
+      "Catalog_*",
+      "deleteActiveCatalog",
+      "downloadActiveCatalog",
+      "downloadErrorCatalog",
+      "manageActiveCatalogPage",
+      "manageCatalogItems",
+      "searchCatalogItems",
+      "uploadActiveCatalog"
+    ],
+    "User": [
+      "User_*",
+      "changePassword",
+      "manageUser",
+      "regeneratePassword",
+      "reset",
+      "resetForm"
+    ],
+    "Analytics": [
+      "analytics_*",
+      "analyticsView",
+      "analyticssUpdateSettings",
+      "esDownload",
+      "esSearch"
+    ],
+    "Compare": [
+      "Compare_*",
+      "compareProducts"
+    ],
+    "Search": [
+      "Search_*",
+      "search"
+    ],
+    "Task": [
+      "Task_*",
+      "getTaskDetailWidget",
+      "getTaskDetailWindow",
+      "myOpenTask",
+      "submitTaskComments",
+      "taskSearchCount",
+      "taskSearchJson",
+      "taskSearchMarkup"
+    ],
+    "Syndication": [
+      "Syndication_*",
+      "addReseller",
+      "approveReseller",
+      "blockReseller",
+      "changeAuthorizeType",
+      "contactResellers",
+      "getRegisteredResellers",
+      "getResellers",
+      "inviteResellers",
+      "saveCatalogDescription",
+      "saveResellerMessage",
+      "sendResellerInquiry",
+      "showInviteResellers",
+      "showManageCatalog",
+      "showManageResellers",
+      "showReseller",
+      "showResellerMessaging",
+      "syndication"
+    ],
+    "DisplayProduct": [
+      "Product_*",
+      "aboutBrand",
+      "basicProduct",
+      "customerFeedack",
+      "digitalAssets",
+      "displayProductDetailSpec",
+      "displayProductOverview",
+      "optionsAccessories",
+      "productHistory",
+      "view360"
+    ],
+    "ProductDescription": [
+      "Description_*",
+      "downloadDescriptionErrorFile",
+      "editDataCategory",
+      "editDescriptionSteps",
+      "revertToEtilizeDescription",
+      "saveDescriptionFileData",
+      "updatedSingleProductDescription"
+    ],
+    "ProductRichMedia": [
+      "RichMedia_*",
+      "cancelRichMediaTask",
+      "createRichMediaTask",
+      "getProductRichMediaElement",
+      "updateRichMediaTask",
+      "publishRichMarketing"
+    ],
+    "ProductRichText": [
+      "Marketing_*",
+      "deleteMarketingAttribute",
+      "updateMarketingAttributeValue"
+    ],
+    "ProductMarketing": [
+      "RichMarketing_*",
+      "loadBrandText",
+      "loadProductRichMarketingText"
+    ],
+    "Product360": [
+      "Product360_*",
+      "cancel360Task",
+      "create360Task",
+      "getProduct360Element",
+      "update360Task"
+    ],
+    "Brands": [
+      "Brands_*",
+      "cancelBrandRM",
+      "discardBrandDraft",
+      "getBrand",
+      "loadBrandText",
+      "loadProductRichMarketingText",
+      "manageBrand",
+      "saveBrandDraft",
+      "updateBrand",
+      "getBrands"
+    ],
+    "FileUpload": [
+      "FileUpload_*",
+      "editDataUpload",
+      "fileUpload",
+      "richContentUpload",
+      "uploadBulk",
+      "uploadBulkCancel",
+      "uploadBulkUpdate"
+    ],
+    "FileDownload": [
+      "DownloadFile_*",
+      "downloadCSV",
+      "downloadInstructions"
+    ],
+    "Distributor":[
+      "Distributor_*",
+      "sendInviteToManufacturer",
+      "showInviteForm"
+    ],
+    "Signup":[
+      "Signup_*",
+      "process",
+      "validateEmail"
+    ]
+  }
+}

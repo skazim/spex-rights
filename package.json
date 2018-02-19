@@ -1,0 +1,56 @@
+{
+  "name": "spexaccess-user-rights",
+  "version": "0.1.0",
+  "private": true,
+  "babel": {
+    "sourceMaps": true,
+    "presets": [
+      "react",
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "ie >= 9",
+              "last 2 versions"
+            ]
+          }
+        }
+      ]
+    ],
+    "plugins": [],
+    "code": true
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.11",
+    "npm-run-all": "^4.0.2",
+    "node-sass": "^4.5.2",
+    "browserify-2": "^14.4.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "envify": "^4.1.0",
+    "browserify-css": "^0.10.0",
+    "uglifyify": "^4.0.2",
+    "bundle-collapser": "^1.2.1",
+    "uglify-es": "^3.0.24"
+  },
+  "scripts": {
+    "build-css": "node-sass src/*.scss -o src/",
+    "watch-css": "npm run build-css && node-sass src/*.scss -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean-js": "mkdir -p dist; rm -rf dist/*;",
+    "browserify": "browserify -t babelify -g [envify --NODE_ENV production] -t browserify-css -t uglifyify -p bundle-collapser/plugin src/index.js -o dist/etilize-user-rights.js",
+    "uglify-js": "uglifyjs dist/etilize-user-rights.js -c unused,toplevel,inline,evaluate,properties,booleans,loops,conditionals,comparisons,evaluate,reduce_vars,dead_code,drop_debugger,if_return -m toplevel -o dist/etilize-user-rights.min.js",
+    "build-js": "npm run clean-js; npm run browserify; npm run uglify-js",
+    "build": "npm run build-css | npm run build-js"
+  }
+}

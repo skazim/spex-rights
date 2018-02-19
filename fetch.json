@@ -1,0 +1,719 @@
+{
+  "permissions": [
+    {
+      "key": "Default_*",
+      "name": "Default",
+      "values": [
+        {
+          "key": "changeCatalogLocale",
+          "name": "Change Catalog Locale"
+        },
+        {
+          "key": "changeCompany",
+          "name": "Change Company"
+        },
+        {
+          "key": "home",
+          "name": "Home"
+        },
+        {
+          "key": "logout",
+          "name": "Log Out"
+        },
+        {
+          "key": "getCategoryTree",
+          "name": "Get Category Tree"
+        },
+        {
+          "key": "getProductTypes",
+          "name": "Get Product Types"
+        },
+        {
+          "key": "manageProductPage",
+          "name": "Manage Product Page"
+        },
+        {
+          "key": "faq",
+          "name": "Faq"
+        }
+      ]
+    },
+    {
+      "key": "Home_*",
+      "name": "Home",
+      "values": [
+        {
+          "key": "allTask",
+          "name": "All Task"
+        },
+        {
+          "key": "chart",
+          "name": "Chart"
+        },
+        {
+          "key": "dcoverage",
+          "name": "Data Coverage"
+        },
+        {
+          "key": "news",
+          "name": "News"
+        },
+        {
+          "key": "pissues",
+          "name": "Product Issues"
+        },
+        {
+          "key": "phistory",
+          "name": "Product History"
+        },
+        {
+          "key": "recentProduct",
+          "name": "Recent Product"
+        },
+        {
+          "key": "rct",
+          "name": "RCT"
+        },
+        {
+          "key": "topissues",
+          "name": "Top Issues"
+        },
+        {
+          "key": "toppublish",
+          "name": "Top Publish"
+        },
+        {
+          "key": "usertask",
+          "name": "User Task"
+        },
+        {
+          "key": "dashboard",
+          "name": "Dashboard"
+        }
+      ]
+    },
+    {
+      "key": "Catalog_*",
+      "name": "Catalog",
+      "values": [
+        {
+          "key": "deleteActiveCatalog",
+          "name": "Delete Active Catalog"
+        },
+        {
+          "key": "downloadActiveCatalog",
+          "name": "Download Active Catalog"
+        },
+        {
+          "key": "downloadErrorCatalog",
+          "name": "Download Error Catalog"
+        },
+        {
+          "key": "manageActiveCatalogPage",
+          "name": "Manage Active Catalog Page"
+        },
+        {
+          "key": "manageCatalogItems",
+          "name": "Manage Catalog Items"
+        },
+        {
+          "key": "searchCatalogItems",
+          "name": "Search Catalog Items"
+        },
+        {
+          "key": "uploadActiveCatalog",
+          "name": "uploadActiveCatalog"
+        }
+      ]
+    },
+    {
+      "key": "User_*",
+      "name": "User",
+      "values": [
+        {
+          "key": "changePassword",
+          "name": "Change Password"
+        },
+        {
+          "key": "manageUser",
+          "name": "Manage User"
+        },
+        {
+          "key": "regeneratePassword",
+          "name": "Regenerate Password"
+        },
+        {
+          "key": "reset",
+          "name": "Reset"
+        },
+        {
+          "key": "resetForm",
+          "name": "Reset Form"
+        }
+      ]
+    },
+    {
+      "key": "Analytics_*",
+      "name": "Analytics",
+      "values": [
+        {
+          "key": "analyticsView",
+          "name": "Analytics View"
+        },
+        {
+          "key": "analyticsUpdateSettings",
+          "name": "Analytics Update Settings"
+        },
+        {
+          "key": "esDownload",
+          "name": "es Download"
+        },
+        {
+          "key": "esSearch",
+          "name": "es Search"
+        }
+      ]
+    },
+    {
+      "key": "Compare_*",
+      "name": "Compare",
+      "values": [
+        {
+          "key": "compareProducts",
+          "name": "Compare Products"
+        }
+      ]
+    },
+    {
+      "key": "Search_*",
+      "name": "Search",
+      "values": [
+        {
+          "key": "search",
+          "name": "search"
+        }
+      ]
+    },
+    {
+      "key": "Task_*",
+      "name": "Task",
+      "values":[
+        {
+          "key": "getTaskDetailWidget",
+          "name": "Get Task Detail Widget"
+        },
+        {
+          "key": "getTaskDetailWindow",
+          "name": "Get Task Detail Window"
+        },
+        {
+          "key": "myOpenTask",
+          "name": "My Open Task"
+        },
+        {
+          "key": "submitTaskComments",
+          "name": "Submit Task Comments"
+        },
+        {
+          "key": "taskSearchCount",
+          "name": "Task Search Count"
+        },
+        {
+          "key": "taskSearchJson",
+          "name": "Task Search Json"
+        },
+        {
+          "key": "taskSearchMarkup",
+          "name": "Task Search Markup"
+        }
+      ]
+    },
+    {
+      "key": "Syndication_*",
+      "name": "Syndication",
+      "values": [
+        {
+          "key": "addReseller",
+          "name": "Add Reseller"
+        },
+        {
+          "key": "approveReseller",
+          "name": "Approve Reseller"
+        },
+        {
+          "key": "blockReseller",
+          "name": "Block Reseller"
+        },
+        {
+          "key": "changeAuthorizeType",
+          "name": "Change Authorize Type"
+        },
+        {
+          "key": "contactResellers",
+          "name": "Contact Resellers"
+        },
+        {
+          "key": "getRegisteredResellers",
+          "name": "Get Registered Resellers"
+        },
+        {
+          "key": "getResellers",
+          "name": "Get Resellers"
+        },
+        {
+          "key": "inviteResellers",
+          "name": "Invite Resellers"
+        },
+        {
+          "key": "saveCatalogDescription",
+          "name": "Save Catalog Description"
+        },
+        {
+          "key": "saveResellerMessage",
+          "name": "Save Reseller Message"
+        },
+        {
+          "key": "sendResellerInquiry",
+          "name": "Send Reseller Inquiry"
+        },
+        {
+          "key": "showInviteResellers",
+          "name": "Show Invite Resellers"
+        },
+        {
+          "key": "showManageCatalog",
+          "name": "Show Manage Catalog"
+        },
+        {
+          "key": "showManageResellers",
+          "name": "Show Manage Resellers"
+        },
+        {
+          "key": "showReseller",
+          "name": "Show Reseller"
+        },
+        {
+          "key": "showResellerMessaging",
+          "name": "Show Reseller Messaging"
+        },
+        {
+          "key": "syndication",
+          "name": "Syndication"
+        }
+      ]
+    },
+    {
+      "key": "Product_*",
+      "name": "DisplayProduct",
+      "values": [
+        {
+          "key": "aboutBrand",
+          "name": "About Brand"
+        },
+        {
+          "key": "basicProduct",
+          "name": "Basic Product"
+        },
+        {
+          "key": "customerFeedack",
+          "name": "Customer Feedack"
+        },
+        {
+          "key": "digitalAssets",
+          "name": "Digital Assets"
+        },
+        {
+          "key": "displayProductDetailSpec",
+          "name": "Display Product Detail Spec"
+        },
+        {
+          "key": "displayProductOverview",
+          "name": "Display Product Overview"
+        },
+        {
+          "key": "optionsAccessories",
+          "name": "Options Accessories"
+        },
+        {
+          "key": "productHistory",
+          "name": "Product History"
+        },
+        {
+          "key": "view360",
+          "name": "View 360"
+        }
+      ]
+    },
+    {
+      "key": "Description_*",
+      "name": "ProductDescription",
+      "values": [
+        {
+          "key": "downloadDescriptionErrorFile",
+          "name": "Download Description Error File"
+        },
+        {
+          "key": "editDataCategory",
+          "name": "Edit Data Category"
+        },
+        {
+          "key": "editDescriptionSteps",
+          "name": "Edit Description Steps"
+        },
+        {
+          "key": "revertToEtilizeDescription",
+          "name": "Revert To Etilize Description"
+        },
+        {
+          "key": "saveDescriptionFileData",
+          "name": "Updated Single Product Description"
+        }
+      ]
+    },
+    {
+      "key": "RichMedia_*",
+      "name": "ProductRichMedia",
+      "values": [
+        {
+          "key": "cancelRichMediaTask",
+          "name": "Cancel Rich Media Task"
+        },
+        {
+          "key": "createRichMediaTask",
+          "name": "Create Rich Media Task"
+        },
+        {
+          "key": "getProductRichMediaElement",
+          "name": "Get Product Rich Media Element"
+        },
+        {
+          "key": "updateRichMediaTask",
+          "name": "Update Rich Media Task"
+        },
+        {
+          "key": "publishRichMarketing",
+          "name": "Publish Rich Marketing"
+        }
+      ]
+    },
+    {
+      "key": "Marketing_*",
+      "name": "ProductRichText",
+      "values": [
+        {
+          "key": "deleteMarketingAttribute",
+          "name": "Delete Marketing Attribute"
+        },
+        {
+          "key": "updateMarketingAttributeValue",
+          "name": "Update Marketing Attribute Value"
+        }
+      ]
+    },
+    {
+      "key": "RichMarketing_*",
+      "name": "ProductMarketing",
+      "values": [
+        {
+          "key": "loadBrandText",
+          "name": "Load Brand Text"
+        },
+        {
+          "key": "loadProductRichMarketingText",
+          "name": "Load Product Rich Marketing Text"
+        }
+      ]
+    },
+    {
+      "key": "Product360_*",
+      "name": "Product360",
+      "values": [
+        {
+          "key": "cancel360Task",
+          "name": "Cancel 360 Task"
+        },
+        {
+          "key": "create360Task",
+          "name": "Create 360 Task"
+        },
+        {
+          "key": "getProduct360Element",
+          "name": "Get Product 360 Element"
+        },
+        {
+          "key": "update360Task",
+          "name":"Update 360 Task"
+        }
+      ]
+    },
+    {
+      "key": "Brands_*",
+      "name": "Brands",
+      "values": [
+        {
+          "key": "cancelBrandRM",
+          "name": "Cancel Brand RM"
+        },
+        {
+          "key": "discardBrandDraft",
+          "name": "Discard Brand Draft"
+        },
+        {
+          "key": "getBrand",
+          "name": "Get Brand"
+        },
+        {
+          "key": "loadBrandText",
+          "name": "Load Brand Text"
+        },
+        {
+          "key": "loadProductRichMarketingText",
+          "name": "Load Product Rich Marketing Text"
+        },
+        {
+          "key": "manageBrand",
+          "name": "Manage Brand"
+        },
+        {
+          "key": "saveBrandDraft",
+          "name": "Save Brand Draft"
+        },
+        {
+          "key": "updateBrand",
+          "name": "Update Brand"
+        },
+        {
+          "key": "getBrands",
+          "name": "Get Brands"
+        }
+      ]
+    },
+    {
+      "key": "FileUpload_*",
+      "name": "FileUpload",
+      "values": [
+        {
+          "key": "editDataUpload",
+          "name": "Edit Data Upload"
+        },
+        {
+          "key": "fileUpload",
+          "name": "File Upload"
+        },
+        {
+          "key": "richContentUpload",
+          "name": "Rich Content Upload"
+        },
+        {
+          "key": "uploadBulk",
+          "name": "Upload Bulk"
+        },
+        {
+          "key": "uploadBulkCancel",
+          "name": "Upload Bulk Cancel"
+        },
+        {
+          "key": "uploadBulkUpdate",
+          "name": "Upload Bulk Update"
+        }        
+      ]
+    },
+    {
+      "key": "FileDownload_*",
+      "name": "FileDownload",
+      "values": [
+        {
+          "key": "downloadCSV",
+          "name": "Download CSV"
+        },
+        {
+          "key": "downloadInstructions",
+          "name": "Download Instructions"
+        }
+      ]
+    },
+    {
+      "key": "Distributor_*",
+      "name": "Distributor",
+      "values": [
+        {
+          "key": "sendInviteToManufacturer",
+          "name": "Send Invite To Manufacturer"
+        },
+        {
+          "key": "showInviteForm",
+          "name": "Show Invite Form"
+        }
+      ]
+    },
+    {
+      "key": "Signup_*",
+      "name": "Signup",
+      "values": [
+        {
+          "key": "process",
+          "name": "Process"
+        },
+        {
+          "key": "validateEmail",
+          "name": "Validate Email"
+        }
+      ]
+    }
+  ],
+  "enabled": {
+    "Default_*": [
+      "changeCatalogLocale",
+      "changeCompany",
+      "home",
+      "logout",
+      "getCategoryTree",
+      "getProductTypes",
+      "manageProductPage",
+      "faq"
+    ],
+    "Home_*": [
+      "allTask",
+      "chart",
+      "dcoverage",
+      "news",
+      "pissues",
+      "phistory",
+      "recentProduct",
+      "rct",
+      "topissues",
+      "toppublish",
+      "usertask",
+      "dashboard"
+    ],
+    "Catalog_*": [
+      "deleteActiveCatalog",
+      "downloadActiveCatalog",
+      "downloadErrorCatalog",
+      "manageActiveCatalogPage",
+      "manageCatalogItems",
+      "searchCatalogItems",
+      "uploadActiveCatalog"
+    ],
+    "User_*": [
+      "changePassword",
+      "manageUser",
+      "regeneratePassword",
+      "reset",
+      "resetForm"
+    ],
+    "Analytics_*": [
+      "analyticsView",
+      "analyticsUpdateSettings",
+      "esDownload",
+      "esSearch"
+    ],
+    "Compare_*": [
+      "compareProducts"
+    ],
+    "Search_*": [
+      "search"
+    ],
+    "Task_*": [
+      "getTaskDetailWidget",
+      "getTaskDetailWindow",
+      "myOpenTask",
+      "submitTaskComments",
+      "taskSearchCount",
+      "taskSearchJson",
+      "taskSearchMarkup"
+    ],
+    "Syndication_*": [
+      "addReseller",
+      "approveReseller",
+      "blockReseller",
+      "changeAuthorizeType",
+      "contactResellers",
+      "getRegisteredResellers",
+      "getResellers",
+      "inviteResellers",
+      "saveCatalogDescription",
+      "saveResellerMessage",
+      "sendResellerInquiry",
+      "showInviteResellers",
+      "showManageCatalog",
+      "showManageResellers",
+      "showReseller",
+      "showResellerMessaging",
+      "syndication"
+    ],
+    "Product_*": [
+      "aboutBrand",
+      "basicProduct",
+      "customerFeedack",
+      "digitalAssets",
+      "displayProductDetailSpec",
+      "displayProductOverview",
+      "optionsAccessories",
+      "productHistory",
+      "view360"
+    ],
+    "Description_*": [
+      "downloadDescriptionErrorFile",
+      "editDataCategory",
+      "editDescriptionSteps",
+      "revertToEtilizeDescription",
+      "saveDescriptionFileData",
+      "updatedSingleProductDescription"
+    ],
+    "RichMedia_*": [
+      "cancelRichMediaTask",
+      "createRichMediaTask",
+      "getProductRichMediaElement",
+      "updateRichMediaTask",
+      "publishRichMarketing"
+    ],
+    "Marketing_*": [
+      "deleteMarketingAttribute",
+      "updateMarketingAttributeValue"
+    ],
+    "RichMarketing_*": [
+      "loadBrandText",
+      "loadProductRichMarketingText"
+    ],
+    "Product360_*": [
+      "cancel360Task",
+      "create360Task",
+      "getProduct360Element",
+      "update360Task"
+    ],
+    "Brands_*": [
+      "cancelBrandRM",
+      "discardBrandDraft",
+      "getBrand",
+      "loadBrandText",
+      "loadProductRichMarketingText",
+      "manageBrand",
+      "saveBrandDraft",
+      "updateBrand",
+      "getBrands"
+    ],
+    "FileUpload_*": [
+      "editDataUpload",
+      "fileUpload",
+      "richContentUpload",
+      "uploadBulk",
+      "uploadBulkCancel",
+      "uploadBulkUpdate"
+    ],
+    "FileDownload_*": [
+      "downloadCSV",
+      "downloadInstructions"
+    ],
+    "Distributor_*":[
+      "sendInviteToManufacturer",
+      "showInviteForm"
+    ],
+    "Signup_*":[
+      "process",
+      "validateEmail"
+    ]
+  },
+  "checked": {
+  }
+}

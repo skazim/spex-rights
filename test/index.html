@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Rights - Test</title>
+    <style>
+      .rights-holder {
+        margin: auto;
+        max-width: 700px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>User Rights</h1>
+    <div class="rights-holder">
+      <div class="spexaccess-user-rights"></div>
+    </div>
+    <script
+      data-spex-controller-name="spexRightsController"
+      src="../dist/etilize-user-rights.min.js"
+    ></script>
+    <script>
+      (function() {
+        var appData = {};
+
+        appData.permissions = [{
+          "key" : "video",
+          "name" : "Video",
+          "values" : [{
+            "key" : "embed",
+            "name" : "Embed Video"
+          }, {
+            "key" : "upload",
+            "name" : "Upload"
+          }]
+        }, {
+          "key" : "title",
+          "name" : "Title",
+          "values" : [{
+            "key" : "edit",
+            "name" : "Edit"
+          }, {
+            "key" : "remove",
+            "name" : "Remove"
+          }, {
+            "key" : "destroy",
+            "name" : "Destroy"
+          }]
+        }, {
+          "key" : "images",
+          "name" : "Images",
+          "values" : [{
+            "key" : "upload",
+            "name" : "Upload"
+          }, {
+            "key" : "remove",
+            "name" : "Remove"
+          }, {
+            "key" : "paint",
+            "name" : "Paint"
+          }]
+        }];
+
+        appData.enabled = {
+          "video" : ["embed", "upload"],
+          "title" : ["remove", "destroy"]
+        };
+
+        appData.checked = {
+          "video" : ["upload"]
+        };
+
+        appData.invertCheck = false;
+
+        spexRightsController.setData(appData);
+
+        spexRightsController.addChangeListener(function(data) {
+          var checked = data.checked;
+          console.log(checked);
+        });
+      }());
+    </script>
+  </body>
+</html>
