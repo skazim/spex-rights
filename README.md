@@ -1,7 +1,7 @@
 # spex-rights
 User-Rights
 
-#T install, run command
+#To install, run command
 ## npm install
 
 #To start a project
